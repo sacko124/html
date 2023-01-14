@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ; 
+}
+body{
+    background-color:rgb(238, 238, 243) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.exellent{
+    position: relative;
+    width: 100%;
+    max-width: 865px;
+    min-height: 1000px;
+    background-color: rgb(37, 33, 33);
+    margin: 10px;
+    display: grid;
+    grid-template-columns:1fr 2fr ;
+    box-shadow: 0 35px 55px rgba(0, 0,0,0,1);
+}
+.exellent .left_side{
+    position: relative;
+    background-color: #040a09;
+    padding-right: 50px;  
+      
+}
+.imgBx{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-left: 55px;
+    padding-right: 0px;
+}
+.container .right_side{
+    position: relative;
+    background-color: rgb(249, 244, 244);
+    padding-right: 30px;
+    max-width: 100%;
+}
+.adresse ul li{
+    position: relative;
+    list-style-type: none;
+    margin: 8px ;
+    padding-left: 0px;
+    color: white;
+}
+.icon{ 
+    color:#FFFFFF;
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+}
+/*LES TITRES*/
+.title {
+    padding-top: 5px;
+    color:#000000;
+    text-transform: uppercase;
+    font-weight: 600px;
+    letter-spacing: 1px;
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+    margin: 0px;
+    padding-right: 30px;
+    padding-left: 0px;
+    padding-inline: 15px;
+    
+}
+span{
+    color: #FFFFFF;
+}
+
+ul li{
+    color: #FFFFFF;
+    padding: 5px;
+    margin-top: 9px;
+    padding: 0px;
+    padding-left: 0px;
+}
+ul{
+    padding: 20px;
+}
+#p1{
+    padding-left: 40px;
+}
+
+
+
+/*Le CSS de right_side*/
+
+
+h1 {
+    text-transform: uppercase;
+    padding-left: 15px;
+    
+    padding-top: 20px;
+    color: #383838;
+}
+#ttp{
+    color: #000000;
+    font-weight: bold;
+    padding-left: 0px;
+    
+}
+.intro{
+    padding-left: 20px;
+    
+    
+    margin-bottom: 30px;
+    min-width: 50%;
+    max-width:100%;
+   
+}
+.section1{
+margin-bottom: 10px;
+padding-left: 15px;
+line-height: 150%;
+height: 105px;
+}
+#title2{
+    text-transform: uppercase;
+    background-color: #242020;
+    border-radius: 0px 10px 10px 0px;
+    padding-left: 0px;
+    color: white;
+    padding-right: 100px;
+    padding-left: 0px;
+    padding-inline: 30px;
+    margin-bottom: 30px;
+    min-width: 300px;
+    max-width: 85%;
+    
+    
+   
+}
+
+.section2 h3, h4{
+    padding-left: 10px;
+}
+.sect2p{
+    padding-left: 10px;
+    padding-block: 17px;
+  
+    
+}
+*
+body{
+    background-color: rgb(225, 214, 214);
+}
+@media only screen and ( max-width:960px){
+.title{
+width: auto;
+}
+}
+
+
+@media only screen and ( max-width:960px){
+.container{
+width: auto;
+}
+}
+
+@media only screen and ( max-width:960px){
+    .imgBx{
+        position: static;
+        width: auto;
+        padding: 0;
+        height: 100vh;
+    }
+
+.container{
+max-width: 100%;
+flex: 1;
+}  
+}
+/*
+*{dox-slingM: border-box;}
+.imgBx{
+    position: static;
+        width: auto;
+        padding: 0;
+        }
+    container .left_side{
+        flex:1;
+        min-widht: 40%;
+        margin:  19px;
+}
+.section1{
+     flex:1;
+        min-widht: 80%
+        margin:  10px;
+        padding: 10px
+        border:  1px solide;
+         }
+        */
+    
